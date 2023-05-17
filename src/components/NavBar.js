@@ -5,23 +5,25 @@ import {BsInstagram} from 'react-icons/bs'
 
 const NavBar = () => {
   return (
-    <div class="h-16 flex justify-between items-center border-solid border-2 border-sky-900">
+    <div class="h-24 flex justify-between items-center text-primary border-b border-b-primary">
         <div>
-            <a href=""><img src={logo} alt="" class="h-10 m-3.5"/></a>
+            <a href=""><img src={logo} alt="" class="h-12 ml-4 lg:ml-16"/></a>
         </div>
-        <div class="hidden md:flex self-center">
-            <a href="" class="">Nosotros</a>
-            <a href="" class="">Nuestras Causas</a>
-            <a href="" class="">Testimonios</a>
-            <a href="" class="">Contacto</a>
+        <div class="hidden lg:flex">
+            <ul class="flex">
+                <li><a href="" class="border-b-2 border-b-white hover:border-b-secondary">Nosotros</a></li>
+                <li><a href="" class="border-b-2 border-b-white hover:border-b-secondary">Nuestras Causas</a></li>
+                <li><a href="" class="border-b-2 border-b-white hover:border-b-secondary">Testimonios</a></li>
+                <li><a href="" class="border-b-2 border-b-white hover:border-b-secondary">Contacto</a></li>
+            </ul>
         </div>
-        <div class="hidden md:flex self-center">
-            <a href="" class=""><BsInstagram class="text-3xl"/></a>
-            <a href="" class="">Empresas</a>
-            <a href="" class="">Donar</a>
+        <div class="hidden lg:flex mr-16">
+            <a href="" class=""><BsInstagram class="text-5xl"/></a>
+            <a href="" class="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center -mx-0.5 hover:bg-primary hover:text-white">Empresas</a>
+            <a href="" class="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center bg-primary text-white hover:bg-white hover:text-primary">Donar</a>
         </div>
 
-        <div class="md:hidden">
+        <div class="lg:hidden">
             <MenuHamburguesa/>
         </div>
     </div>
