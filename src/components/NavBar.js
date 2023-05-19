@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div class="h-24 flex justify-between items-center text-primary border-b border-b-primary">
         <div>
-            <a href=""><img src={logo} alt="" class="h-12 ml-4 lg:ml-16"/></a>
+            <a href=""><img src={logo} alt="" class="h-10 sd:h-12 ml-4 lg:ml-4.5"/></a>
         </div>
         <div class="hidden lg:flex">
             <ul class="flex">
@@ -17,7 +17,7 @@ const NavBar = () => {
                 <li><a href="" class="border-b-2 border-b-white hover:border-b-secondary">Contacto</a></li>
             </ul>
         </div>
-        <div class="hidden lg:flex mr-16">
+        <div class="hidden lg:flex mr-4.5">
             <a href="" class=""><BsInstagram class="text-5xl"/></a>
             <a href="" class="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center -mx-0.5 hover:bg-primary hover:text-white">Empresas</a>
             <a href="" class="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center bg-primary text-white hover:bg-white hover:text-primary">Donar</a>
