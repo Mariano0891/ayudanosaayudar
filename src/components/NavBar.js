@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from '../assets/logo/Logo.png'
+import logo from '../assets/logos/Logo.png'
 import MenuHamburguesa from './MenuHamburguesa/MenuHamburguesa'
 import {BsInstagram} from 'react-icons/bs'
 
 const NavBar = () => {
   return (
-    <div class="h-24 flex justify-between items-center text-primary border-b border-b-primary">
+    <div class="h-24 flex justify-between items-center border-b border-b-primary bg-white">
         <div>
             <a href=""><img src={logo} alt="" class="h-10 sd:h-12 ml-4 lg:ml-4.5"/></a>
         </div>
