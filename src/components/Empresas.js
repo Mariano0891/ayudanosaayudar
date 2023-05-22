@@ -17,7 +17,7 @@ const Empresas = () => {
             <img src={logo} alt="" class="w-16 m-3 md:mt-12 md:w-24"/>  
             <img src={logo} alt="" class="w-16 m-3 md:mt-12 md:w-24"/>  
         </div>
-        <div class="mx-8 my-4 text-sm md:text-base text-justify gap-10 lg:gap-16 md:grid md:grid-cols-2 lg:mx-24 lg:my-12">
+        <div class="mx-8 my-4 text-sm md:text-base text-justify gap-10 lg:gap-16 md:grid md:grid-cols-2 lg:mx-24 lg:my-10">
             <p>Lorem ipsum dolor sit amet consectetur. Cras dictum amet diam mus dui sodales nisl eget. Sagittis integer vulputate feugiat quisque nisl sed sed aliquet tellus. Sapien turpis tortor morbi ipsum sed viverra vestibulum. Pellentesque massa lacus lectus in. Ullamcorper a neque scelerisque placerat at sollicitudin diam. Massa lectus sed ullamcorper turpis. Pharetra laoreet et amet id lorem metus. Non gravida fermentum amet neque ut.</p>
             <p>Lorem ipsum dolor sit amet consectetur. Cras dictum amet diam mus dui sodales nisl eget. Sagittis integer vulputate feugiat quisque nisl sed sed aliquet tellus. Sapien turpis tortor morbi ipsum sed viverra vestibulum. Pellentesque massa lacus lectus in. Ullamcorper a neque scelerisque placerat at sollicitudin diam. Massa lectus sed ullamcorper turpis. Pharetra laoreet et amet id lorem metus. Non gravida fermentum amet neque ut.</p>
         </div>
