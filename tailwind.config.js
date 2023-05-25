@@ -7,6 +7,9 @@ module.exports = {
         primary: "#124375",
         secondary: "#BDD632",
         tertiary: "rgba(190, 176, 214, 0.2)",
+        quaternary: "#BEB0D6",
+        quinary: "rgba(190, 176, 214, 0.7);",
+        sextarian: "#5D3A99",
       }
     },
   },
