@@ -1,7 +1,6 @@
 import React from "react";
 import {BsInstagram, BsWhatsapp, BsEnvelopeAt} from 'react-icons/bs'
-/* rounded-lg shadow-lg mb-4 max-w-[284px] lg:max-w-[783px] m-auto
-py-8 lg:py-16 px-4 mx-auto max-w-screen-md  */
+
 const Contacto = () => {
     return (
         <section className="">
