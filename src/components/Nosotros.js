@@ -5,7 +5,7 @@ const Nosotros = () => {
   return (
     <div>
         <div>
-            <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-start mx-6 lg:mx-24"><div class="bg-quaternary w-36 md:w-72 h-6 md:h-8 flex items-end justify-center">Nosotros</div></h2>
+            <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-start mx-6 lg:mx-24"><div class="bg-quaternary w-36 md:w-72 h-6 md:h-12 flex items-center justify-center">Nosotros</div></h2>
         </div>
         <div class=" m-6 lg:flex lg:flex-row">
             <div class="lg:w-1/2 lg:m-20">

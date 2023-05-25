@@ -11,7 +11,7 @@ const MenuHamburguesa = () => {
                 <a href="" className="navLink">Nuestras Causas</a>
                 <a href="" className="navLink">Testimonios</a>
                 <a href="" className="navLink">Contacto</a>
-                <a href="" className="iconButton"><BsInstagram class="text-3xl"/></a>
+                <a href="https://www.instagram.com/4yudar/" target="_blank" rel="noopener noreferrer" className="iconButton"><BsInstagram class="text-3xl"/></a>
                 <a href="" className="button">Empresas</a>
                 <a href="" className="button">Donar</a>
             </div>

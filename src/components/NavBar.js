@@ -18,7 +18,7 @@ const NavBar = () => {
             </ul>
         </div>
         <div class="hidden lg:flex mr-4.5">
-            <a href="" class=""><BsInstagram class="text-5xl"/></a>
+            <a href="https://www.instagram.com/4yudar/" target="_blank" rel="noopener noreferrer" class=""><BsInstagram class="text-5xl"/></a>
             <a href="" class="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center -mx-0.5 hover:bg-primary hover:text-white">Empresas</a>
             <a href="" class="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center bg-primary text-white hover:bg-white hover:text-primary">Donar</a>
         </div>

@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Empresas from './components/Empresas';
 import Donacion from './components/Donacion';
 import Nosotros from './components/Nosotros';
+import Valores from './components/Valores';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Empresas/>
       <Donacion/>
       <Nosotros/>
+      <Valores/>
     </div>
   );
 }
