@@ -5,9 +5,6 @@ import Carrusel from './components/Carrusel';
 import Banner from './components/Banner';
 import Empresas from './components/Empresas';
 import Donacion from './components/Donacion';
-import Footer from "./components/Footer"
-import Contacto from './components/Contacto';
-
 
 function App() {
   return (
@@ -17,8 +14,6 @@ function App() {
       <Banner/>
       <Empresas/>
       <Donacion/>
-      <Contacto/>
-      <Footer/>
     </div>
   );
 }

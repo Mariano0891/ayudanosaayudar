@@ -10,7 +10,7 @@ const Donacion = () => {
         <div>
           <h2 class="font-bold text-2xl m-6 md:text-5xl lg:text-6xl text-center">Ayúdanos con tu aporte</h2>
         </div>
-        <div class="flex justify-evenly flex-wrap lg:mx-48 lg:my-6 ">
+        <div class="flex justify-evenly flex-wrap lg:mx-40 lg:my-6 ">
           <a href="https://mpago.la/1Y9msUf" target="_blank" rel="noopener noreferrer" class="w-28 md:w-36 h-12 border border-primary rounded-3xl flex justify-center items-center hover:bg-primary hover:text-white">Donar $500</a>
           <a href="https://mpago.la/2TjynZc" target="_blank" rel="noopener noreferrer" class="w-28 md:w-36 h-12 border border-primary rounded-3xl flex justify-center items-center hover:bg-primary hover:text-white">Donar $1.000</a>
           <a href="https://mpago.la/24v1qpj" target="_blank" rel="noopener noreferrer" class="w-28 md:w-36 h-12 border border-primary rounded-3xl flex justify-center items-center hover:bg-primary hover:text-white">Donar $1.500</a>
