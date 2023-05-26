@@ -5,6 +5,7 @@ import Carrusel from './components/Carrusel';
 import Banner from './components/Banner';
 import Empresas from './components/Empresas';
 import Donacion from './components/Donacion';
+import Nosotros from './components/Nosotros';
 import Valores from './components/Valores';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
