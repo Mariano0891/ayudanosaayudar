@@ -1,0 +1,29 @@
+.sliderContainer{
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 300px;
+    
+}
+.slider{
+    display: flex;
+    cursor: grab;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+.slider div{
+    height: 15rem;
+    max-width: 30rem;
+    padding: 2rem;
+}
+@keyframes slide {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    21%{margin-left: -102%;}
+    40%{margin-left: -102%;}
+    41%{margin-left: -204%;}
+    60%{margin-left: -204%;}
+    61%{margin-left: -304%;}
+    80%{margin-left: -304%;}
+    81%{margin-left: -405%;}
+    100%{margin-left: -405%;}
+
+}

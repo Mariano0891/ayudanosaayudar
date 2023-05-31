@@ -10,6 +10,7 @@ module.exports = {
         quaternary: "#BEB0D6",
         quinary: "rgba(190, 176, 214, 0.7);",
         sextarian: "#5D3A99",
+        forHover: "#306FB0",
       }
     },
   },
