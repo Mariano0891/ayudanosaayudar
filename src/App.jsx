@@ -8,6 +8,7 @@ import Donacion from './components/Donacion';
 import Valores from './components/Valores';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
+import Nosotros from './components/Nosotros'
 
 
 function App() {
