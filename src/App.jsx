@@ -9,6 +9,8 @@ import Nosotros from './components/Nosotros';
 import Valores from './components/Valores';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
+import Separador from './components/Separador';
+import Causas from './components/Causas';
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
       <Empresas/>
       <Donacion/>
       <Nosotros/>
+      <Separador/>
       <Valores/>
+      <Causas/>
       <Contacto/>
       <Footer/>
     </div>
