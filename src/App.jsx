@@ -5,10 +5,12 @@ import Carrusel from './components/Carrusel';
 import Banner from './components/Banner';
 import Empresas from './components/Empresas';
 import Donacion from './components/Donacion';
+import Nosotros from './components/Nosotros';
 import Valores from './components/Valores';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
-import Nosotros from './components/Nosotros'
+import Separador from './components/Separador';
+import Causas from './components/Causas';
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
       <Empresas/>
       <Donacion/>
       <Nosotros/>
+      <Separador/>
       <Valores/>
+      <Causas/>
       <Contacto/>
       <Footer/>
     </div>

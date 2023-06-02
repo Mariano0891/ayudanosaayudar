@@ -41,12 +41,13 @@ a {
     border-bottom: 2px solid #BDD632;
 }
 .button:hover{
-    background-color: #124375;
+    background-color: #306FB0;
+    border: solid 1px #306FB0;
     color:white;
 }
 .button:last-of-type:hover{
-    background-color: white;
-    color: #124375;
+    background-color: #306FB0;
+    border: solid 1px #306FB0;
 }
 .menuLinks:not(.open){
     width: 0;
