@@ -7,7 +7,7 @@
 .slider{
     display: flex;
     cursor: grab;
-    animation: slide 15s infinite alternate ease-in-out;
+    /*animation: slide 15s infinite alternate ease-in-out;*/
     width: 500%;
     margin-left: -100%;
 }
@@ -16,24 +16,8 @@
     width: 100%;
     padding: 2rem 0px;
 }
-.sliderButton {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: gray;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 30px;
-    text-align: center;
-    border-radius: 50%;
-}
-.sliderButtonRight {
-    right: 10px;
-}
-.sliderButtonLeft {
-    left: 10px;
-}
-@keyframes slide {
+
+/*@keyframes slide {
     0%{margin-left: 0;}
     20%{margin-left: 0;}
     21%{margin-left: -100%;}
@@ -44,5 +28,4 @@
     80%{margin-left: -300%;}
     81%{margin-left: -400%;}
     100%{margin-left: -400%;}
-
-}
+}*/
