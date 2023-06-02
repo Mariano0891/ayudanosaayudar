@@ -15,20 +15,29 @@ const Valores = () => {
         {imagen:imagenParticipacion, nombre: "Participación"},
         {imagen:imagenJusticia, nombre: "Equidad y justicia social"}
     ]
+const slider = document.querySelector("#slider");
+var sliderSection = document.querySelectorAll(".sliderSection");
+var sliderSectionLast = sliderSection[sliderSection.length -1];
+//const sliderButtonLeft = document.querySelector("#sliderButtonLeft");
+//const sliderButtonRight = document.querySelector("#sliderButtonRight");
+slider.insertAdjacentElement('afterbegin', sliderSectionLast);
+
   return (
     <div>
         <div>
             <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-center">Valores</h2>
         </div>
-        <div className="sliderContainer">
-            <div className="slider">
+        <div className="sliderContainer md:hidden">
+            <div className="slider" id="slider">
             {conjuntoValores.map(valor => (
-                <div class="w-full flex flex-col items-center w-full">
+                <div class="flex flex-col items-center sliderSection">
                     <img src={valor.imagen} alt={valor.nombre} class="h-full"/>
-                    <h3 class="font-bold text-center my-4 w-60">{valor.nombre}</h3>
+                    <h3 class="font-bold text-center mt-4 w-60">{valor.nombre}</h3>
                 </div>
             ))}
             </div>
+            <div class="sliderButton sliderButtonRight" id="sliderButtonRight">R</div>
+            <div class="sliderButton sliderButtonLeft" id="sliderButtonLeft">L</div>
         </div>
         <div class="hidden md:flex justify-evenly flex-wrap m-11 md:m-20">
             {conjuntoValores.map(valor => (
