@@ -7,7 +7,7 @@ import Empresas from './components/Empresas';
 import Donacion from './components/Donacion';
 import Nosotros from './components/Nosotros';
 import Valores from './components/Valores';
-import Contacto from './components/Contacto';
+import Contacto from './components/Contacto/Contacto';
 import Footer from './components/Footer';
 import Separador from './components/Separador';
 import Causas from './components/Causas';

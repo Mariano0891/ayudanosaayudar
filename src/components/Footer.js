@@ -13,10 +13,10 @@ const Footer = () => {
 
         <div className="flex justify-center mx-8">
             <ul className="m-6">
-                <li><a href="" class="flex justify-start text-white hover:border-b-secondary ">Nosotros</a></li>
-                <li><a href="" class="flex justify-start text-white hover:border-b-secondary">Nuestras Causas</a></li>
-                <li><a href="" class="flex justify-start text-white hover:border-b-secondary">Testimonios</a></li>
-                <li><a href="" class="flex justify-start text-white hover:border-b-secondary">Contacto</a></li>
+                <li><a href="#nosotros" class="flex justify-start text-white hover:border-b-secondary ">Nosotros</a></li>
+                <li><a href="#causas" class="flex justify-start text-white hover:border-b-secondary">Nuestras Causas</a></li>
+                <li><a href="#testimonio" class="flex justify-start text-white hover:border-b-secondary">Testimonios</a></li>
+                <li><a href="#contacto" class="flex justify-start text-white hover:border-b-secondary">Contacto</a></li>
             </ul>
         </div>
 

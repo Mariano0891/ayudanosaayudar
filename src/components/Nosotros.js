@@ -3,7 +3,7 @@ import imagenNosotros from '../assets/imagenes/ImagenNosotros.png'
 
 const Nosotros = () => {
   return (
-    <div>
+    <div id='nosotros'>
         <div>
             <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-start mx-6 lg:mx-24"><div class="bg-quaternary w-36 md:w-72 h-6 md:h-12 flex items-center justify-center">Nosotros</div></h2>
         </div>

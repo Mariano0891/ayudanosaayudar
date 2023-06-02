@@ -3,7 +3,7 @@ import logoMP from '../assets/logos/LogoMercadoPago.png'
 
 const Donacion = () => {
   return (
-    <div class="bg-tertiary m-4 lg:m-9 rounded-3xl p-3 md:p-7">
+    <div id='donar' class="bg-tertiary m-4 lg:m-9 rounded-3xl p-3 md:p-7">
         <div class="flex justify-center">
             <img src={logoMP} alt="Logo de Mercado Pago" class="w-32"/>
         </div>

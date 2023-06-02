@@ -7,7 +7,7 @@ const Causas = () => {
         {nombre: "Evento solidario", descripcion: "Se realizó un evento de recaudación de fondos. Una tarde llena de entretenimiento, subastas, rifas y actividades especiales mientras ayudamos a mejorar la vida de niños necesitados.", imagen: "https://www.instagram.com/p/Cp6MtDdgZUp/" , link: "https://www.instagram.com/p/Cp6MtDdgZUp/"},
     ]
   return (
-    <div>
+    <div id='causas'>
       <div>
         <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-center"><span class="bg-secondary">Nuestras</span> causas</h2>
       </div>

@@ -18,7 +18,7 @@ import logo15 from '../assets/logos/empresas/Valkiria.jpeg'
 
 const Empresas = () => {
   return (
-    <div>
+    <div id='empresas'>
         <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-center"><span class="bg-secondary">Empresas</span> que trabajaron con nosotros</h2>
         <div class="flex justify-center flex-wrap lg:mx-16">
             <img src={logo1} alt="" class="w-16 m-3 md:mt-12 md:w-24"/>  
@@ -42,7 +42,7 @@ const Empresas = () => {
             <p>Lorem ipsum dolor sit amet consectetur. Cras dictum amet diam mus dui sodales nisl eget. Sagittis integer vulputate feugiat quisque nisl sed sed aliquet tellus. Sapien turpis tortor morbi ipsum sed viverra vestibulum. Pellentesque massa lacus lectus in. Ullamcorper a neque scelerisque placerat at sollicitudin diam. Massa lectus sed ullamcorper turpis. Pharetra laoreet et amet id lorem metus. Non gravida fermentum amet neque ut.</p>
         </div>
         <div class="flex justify-center">
-            <a href="" class="w-64 h-12 border border-primary rounded-3xl flex justify-center items-center bg-primary text-white hover:bg-forHover hover:border-forHover">Suma tu empresa</a>
+            <a href="#contacto" class="w-64 h-12 border border-primary rounded-3xl flex justify-center items-center bg-primary text-white hover:bg-forHover hover:border-forHover">Suma tu empresa</a>
         </div>
     </div>
   )
