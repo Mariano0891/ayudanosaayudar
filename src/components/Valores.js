@@ -15,12 +15,12 @@ const Valores = () => {
         {imagen:imagenParticipacion, nombre: "Participación"},
         {imagen:imagenJusticia, nombre: "Equidad y justicia social"}
     ]
-const slider = document.querySelector("#slider");
-var sliderSection = document.querySelectorAll(".sliderSection");
-var sliderSectionLast = sliderSection[sliderSection.length -1];
+//const slider = document.querySelector("#slider");
+//var sliderSection = document.querySelectorAll(".sliderSection");
+//var sliderSectionLast = sliderSection[sliderSection.length -1];
 //const sliderButtonLeft = document.querySelector("#sliderButtonLeft");
 //const sliderButtonRight = document.querySelector("#sliderButtonRight");
-slider.insertAdjacentElement('afterbegin', sliderSectionLast);
+//slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 
   return (
     <div>
