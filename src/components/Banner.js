@@ -3,7 +3,7 @@ import logo from '../assets/logos/Logo.png'
 
 const Banner = () => {
   return (
-    <div class="flex place-items-center flex-col">
+    <div id="home" class="flex place-items-center flex-col">
         <div class="flex flex-col place-items-center">
             <img src={logo} alt="" class="w-36 my-3 md:w-80 md:my-5"/>
             <div class="w-40 h-2 md:w-96 md:h-3 bg-secondary rounded-3xl"></div>

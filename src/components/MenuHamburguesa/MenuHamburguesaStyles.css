@@ -5,7 +5,7 @@
     margin: 0px;
     color: #124375;
     text-decoration: none;
-    position: absolute;
+    position: fixed;
     top: 97px;
     right: 0;
     background-color: white;
@@ -50,7 +50,7 @@ a {
     border: solid 1px #306FB0;
 }
 .menuLinks:not(.open){
-    width: 0;
+    /*width: 0;*/
     height: 0;
     overflow: hidden;
 }
