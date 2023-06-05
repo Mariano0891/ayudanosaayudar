@@ -7,6 +7,7 @@ import { Pagination, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/less/pagination';
 import 'swiper/css/autoplay';
+import '../components/Styles/CausasStyles.css';
 
 const Causas = () => {
     const conjuntoCausas = [
@@ -19,7 +20,7 @@ const Causas = () => {
       <div  class="mx-6 md:mx-12 lg:mx-24">
         <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-start"><span class="bg-secondary">Nuestras</span> causas</h2>
       </div>
-      <div class="md:hidden flex flex-col justify-center my-6">
+      <div class="md:hidden">
           <Swiper
               modules={[Pagination, Autoplay]}
               pagination={{
@@ -31,22 +32,19 @@ const Causas = () => {
                   delay: 4000,
                   disableOnInteraction: false,
               }}
-              spaceBetween={50}
-              slidesPerView={1}  
+              spaceBetween={10}
+              slidesPerView={1}
+              loop={true}
           >
           {conjuntoCausas.map(causa => (
-            <div>
-              <div class="flex justify-center">
-                <img src={causa.imagen} alt={causa.nombre} class="w-10/12 h-36 rounded-3xl object-cover"/>
-              </div>  
-              <div class="flex flex-col text-center mx-6 mt-6">
-                <h3 class="font-bold text-xl mx-6 mt-6">{causa.nombre}</h3>
+            <SwiperSlide key={causa.nombre}>
+              <div class="card">
+                <img src={causa.imagen} alt={causa.nombre} class="w-10/12 h-36 rounded-3xl object-cover"/>  
+                <h3 class="font-bold text-xl md:mt-6">{causa.nombre}</h3>
                 <p class="text-justify mt-2 mx-8">{causa.descripcion}</p>
+                <a href={causa.link} target="_blank" rel="noopener noreferrer" class="m w-64 h-12 border border-primary rounded-3xl flex justify-center items-center text-primary hover:bg-forHover hover:border-forHover hover:text-white">Conocer más</a>
               </div>
-              <div class="flex justify-center">
-                  <a href={causa.link} target="_blank" rel="noopener noreferrer" class="m w-64 h-12 border border-primary rounded-3xl flex justify-center items-center text-primary hover:bg-forHover hover:border-forHover hover:text-white">Conocer más</a>
-              </div>
-            </div>
+            </SwiperSlide>
           ))}
           </Swiper>
       </div>

@@ -27,6 +27,7 @@ function App() {
       <Valores/>
       <Causas/>
       <Testimonios/>
+      <Separador/>
       <Contacto/>
       <Footer/>
     </div>

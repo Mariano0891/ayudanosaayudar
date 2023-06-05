@@ -39,6 +39,7 @@ const Testimonios = () => {
                 },
                 1000:{
                     slidesPerView:3,
+                    loop: false,
                 }
             }}
         >
