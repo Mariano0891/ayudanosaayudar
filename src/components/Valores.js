@@ -40,6 +40,7 @@ const Valores = () => {
                 
                 spaceBetween={50}
                 slidesPerView={1}
+                loop={true}
                 
             >
                 <div className="slider">

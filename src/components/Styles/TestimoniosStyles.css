@@ -1,0 +1,25 @@
+.slide{
+    width: 370px;
+}
+
+@media (max-width: 1200px) {
+    .slide{
+        width: 330px;
+    }
+}
+@media (max-width: 680px) {
+    .slide{
+        width: 300px;
+    }
+}
+@media (max-width: 310px) {
+    .slide{
+        width: 270px;
+        height: 164px;
+    }
+}
+
+
+*{
+    margin-bottom: 12px;
+}

@@ -4,13 +4,12 @@
     width: 80%;
     position: relative;
 }
-.slider{
+/*.slider{
     display: flex;
     cursor: grab;
-    /*animation: slide 15s infinite alternate ease-in-out;*/
     width: 500%;
     margin-left: -100%;
-}
+}*/
 .sliderSection{
     height: 15rem;
     width: 100%;

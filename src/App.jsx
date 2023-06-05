@@ -11,6 +11,7 @@ import Contacto from './components/Contacto/Contacto';
 import Footer from './components/Footer';
 import Separador from './components/Separador';
 import Causas from './components/Causas';
+import Testimonios from './components/Testimonios';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Separador/>
       <Valores/>
       <Causas/>
+      <Testimonios/>
       <Contacto/>
       <Footer/>
     </div>
