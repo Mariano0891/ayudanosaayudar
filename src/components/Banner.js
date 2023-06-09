@@ -11,7 +11,7 @@ const Banner = () => {
         </div>
         <div class="my-6 md:my-12">
             <h1 class="font-bold text-2xl md:text-5xl lg:text-6xl text-center">El poder de una donación</h1>
-            <p class="text-center font-light text-sm md:text-xl my-6 mx-12 md:mx-24 lg:mx-40">Ayudar es una organización sin fines de lucro que nace del compromiso y la inquietud por construir una sociedad más justa y unida. Nuestro objetivo principal es brindar ayuda y apoyo a aquellos que más lo necesitan</p>
+            <p class="text-center font-light text-sm md:text-xl my-6 mx-12 md:mx-24 lg:mx-40 lg:text-center lg:max-w-[750px]">Ayudar es una organización sin fines de lucro que nace del compromiso y la inquietud por construir una sociedad más justa y unida. Nuestro objetivo principal es brindar ayuda y apoyo a aquellos que más lo necesitan</p>
         </div>
     </div>
   )

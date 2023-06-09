@@ -17,7 +17,7 @@ const Testimonios = () => {
         {nombre:"Natalia Fernández Laya", declaracion:'"Orgullosa de ustedes. Yo los ayudo a ayudar"'}       
     ]
   return (
-    <div>
+    <div id='testimonios'>
         <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-center mb-6 md:mb-12 lg:mb-20">Testimonios</h2>
         <Swiper
             modules={[Pagination, Autoplay, Navigation]}
