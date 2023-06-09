@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logos/Logo.png'
 
+
 const Banner = () => {
   return (
     <div id="home" class="flex place-items-center flex-col">

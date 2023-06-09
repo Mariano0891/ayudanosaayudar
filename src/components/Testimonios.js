@@ -1,9 +1,10 @@
 import React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper';
+import { Pagination, Autoplay, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
 import '../components/Styles/TestimoniosStyles.css'
 
 
@@ -19,7 +20,7 @@ const Testimonios = () => {
     <div>
         <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-center mb-6 md:mb-12 lg:mb-20">Testimonios</h2>
         <Swiper
-            modules={[Pagination, Autoplay]}
+            modules={[Pagination, Autoplay, Navigation]}
             pagination={{
                 el:'.swiper-pagination',
                 clickable: true,
@@ -32,7 +33,7 @@ const Testimonios = () => {
             spaceBetween={30}
             slidesPerView={1}
             loop={true}
-
+            navigation={true}
             breakpoints={{
                 620: {
                     slidesPerView:2,

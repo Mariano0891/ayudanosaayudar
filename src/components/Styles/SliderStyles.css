@@ -28,3 +28,12 @@
     81%{margin-left: -400%;}
     100%{margin-left: -400%;}
 }*/
+div.swiper-button-next, div.swiper-button-prev {
+    width: 1px;
+    height: 11.17px;
+    color: #767676 !important;
+    font-weight: 900;
+}
+:root {
+    --swiper-navigation-size: 11.75px !important
+}

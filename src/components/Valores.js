@@ -6,10 +6,11 @@ import imagenParticipacion from '../assets/valores/Participación.png';
 import imagenJusticia from '../assets/valores/Justicia.png';
 import '../components/Styles/SliderStyles.css';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper';
+import { Pagination, Autoplay, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/less/pagination';
 import 'swiper/css/autoplay';
+import "swiper/css/navigation";
 
 
 const Valores = () => {
@@ -27,7 +28,7 @@ const Valores = () => {
         </div>
         <div className="sliderContainer md:hidden">
             <Swiper
-                modules={[Pagination, Autoplay]}
+                modules={[Pagination, Autoplay, Navigation]}
                 pagination={{
                     el:'.swiper-pagination',
                     clickable: true,
@@ -41,6 +42,7 @@ const Valores = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 loop={true}
+                navigation={true}
                 
             >
                 <div className="slider">

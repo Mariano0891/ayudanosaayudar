@@ -3,10 +3,11 @@ import imagenSoles from '../assets/imagenes/ImagenSoles.jpeg';
 import imagenRifa from '../assets/imagenes/ImagenRifa.jpeg';
 import imagenEvento from '../assets/imagenes/ImagenEvento.jpg';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper';
+import { Pagination, Autoplay , Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/less/pagination';
 import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
 import '../components/Styles/CausasStyles.css';
 
 const Causas = () => {
@@ -22,7 +23,7 @@ const Causas = () => {
       </div>
       <div class="md:hidden">
           <Swiper
-              modules={[Pagination, Autoplay]}
+              modules={[Pagination, Autoplay, Navigation]}
               pagination={{
                   el:'.swiper-pagination',
                   clickable: true,
@@ -35,6 +36,7 @@ const Causas = () => {
               spaceBetween={10}
               slidesPerView={1}
               loop={true}
+              navigation={true}
           >
           {conjuntoCausas.map(causa => (
             <SwiperSlide key={causa.nombre}>
