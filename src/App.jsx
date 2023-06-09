@@ -12,12 +12,14 @@ import Footer from './components/Footer';
 import Separador from './components/Separador';
 import Causas from './components/Causas';
 import Testimonios from './components/Testimonios';
+import SliderBanner from './components/SliderBanner/SliderBanner';
 
 
 function App() {
   return (
     <div>
       <NavBar/>
+      <SliderBanner/>
       <Carrusel/>
       <Banner/>
       <Empresas/>

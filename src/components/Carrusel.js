@@ -51,7 +51,7 @@ function Carrusel() {
   return (
 
 
-    <div className='max-w-[375px] h-[367px] w-full m-auto py-16 px-4 lg:max-w-[675px] lg:h-[667px] '>
+    <div className='max-w-[375px] h-[367px] w-full m-auto py-16 px-4 md:hidden lg:max-w-[675px] lg:h-[667px] '>
        
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}

@@ -24,6 +24,23 @@ import '../components/Styles/EmpresasStyles.css'
 
 
 const Empresas = () => {
+  const conjuntoEmpresas = [
+    {nombre: "Amanda", imagen: logo1},
+    {nombre: "Amarlena", imagen: logo2},
+    {nombre: "Clara", imagen: logo3},
+    {nombre: "De Jesus", imagen: logo4},
+    {nombre: "Espacio BN", imagen: logo5},
+    {nombre: "Fucking Sushi", imagen: logo6},
+    {nombre: "Giulio", imagen: logo7},
+    {nombre: "Meraki", imagen: logo8},
+    {nombre: "Nails by China", imagen: logo9},
+    {nombre: "Neo Spa", imagen: logo10},
+    {nombre: "Paseo Lourdes", imagen: logo11},
+    {nombre: "P y P", imagen: logo12},
+    {nombre: "Studio Vitto", imagen: logo13},
+    {nombre: "Vailu Store", imagen: logo14},
+    {nombre: "Valkiria", imagen: logo15},
+  ]
   return (
     <div id='empresas'>
         <h2 class="font-bold text-2xl md:text-5xl lg:text-6xl text-center"><span class="bg-secondary">Empresas</span> que trabajaron con nosotros</h2>
@@ -47,21 +64,13 @@ const Empresas = () => {
                   }
               }}
             >
-            <SwiperSlide><img src={logo1} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide>  
-            <SwiperSlide><img src={logo2} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo3} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo4} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo5} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo6} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo7} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo8} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo9} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide> 
-            <SwiperSlide><img src={logo10} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide>  
-            <SwiperSlide><img src={logo11} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide>  
-            <SwiperSlide><img src={logo12} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide>
-            <SwiperSlide><img src={logo13} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide>  
-            <SwiperSlide><img src={logo14} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide>  
-            <SwiperSlide><img src={logo15} alt="" class="w-20 mt-8 md:mt-20 md:w-36"/></SwiperSlide>  
+            {conjuntoEmpresas.map(empresa => 
+            <SwiperSlide>
+              <div class="flex justify-center content-center">
+                <img src={empresa.imagen} alt={empresa.nombre} class="w-20 mt-8 md:mt-20 md:w-36 place-self-center"/>
+              </div>
+            </SwiperSlide>  
+              )}  
           </Swiper>
         </div>
         <div class="mx-8 my-4 text-sm md:text-base text-justify gap-10 lg:gap-16 md:grid md:grid-cols-2 lg:mx-24 lg:my-10">

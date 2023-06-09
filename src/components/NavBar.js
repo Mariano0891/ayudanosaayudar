@@ -5,7 +5,7 @@ import {BsInstagram} from 'react-icons/bs'
 
 const NavBar = () => {
   return (
-    <div class="h-24 flex justify-between items-center border-b border-b-primary bg-white sticky top-0 z-40">
+    <div class="h-24 flex justify-between items-center border-b border-b-primary bg-white sticky top-0 z-40 pt-5">
         <div>
             <a href="#home"><img src={logo} alt="" class="h-10 sd:h-12 ml-4 lg:ml-4.5"/></a>
         </div>
