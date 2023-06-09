@@ -27,7 +27,7 @@ const SliderBanner = () => {
         {img: imagen8, descripcion: "De excursion"},
     ]
   return (
-    <div class="hidden md:block overflow-x-hidden">
+    <div class="hidden mt-10 md:block overflow-x-hidden">
         <Swiper class="bannerContainer"
         effect={"coverflow"}
         grabCursor={true}
