@@ -46,7 +46,6 @@ const SliderBanner = () => {
         }}
         modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper"
-        loop={true}
       >
         {conjuntoImagenes.map(imagen => (
             <SwiperSlide className="bannerSlide">
