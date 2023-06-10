@@ -22,7 +22,7 @@ const Footer = () => {
 
         <div className="flex justify-center mx-8">
             <ul className="text-center m-6">
-                <li className="flex justify-start items-center text-white"><a href="https://www.instagram.com/4yudar/" target="_blank" rel="noopener noreferrer" class=""><BsInstagram class="text-3xl "/></a>@4ayudanos</li>
+                <li className="flex justify-start items-center text-white"><a href="https://www.instagram.com/4yudar/" target="_blank" rel="noopener noreferrer" class=""><BsInstagram class="text-3xl "/></a>@4yudar</li>
                 <li className="flex justify-start items-center text-white m-2"><BsEnvelopeAt class="m-2 text-3xl"/>ayudanos4ayudar@gmail.com</li>
                 <li className="flex justify-start items-center text-white"><a href=" https://wa.me/5491122788536" target="_blank" rel="noopener noreferrer" class=""><BsWhatsapp class="text-3xl"/></a>+54 9 11 2278-8536</li>
             </ul>

@@ -60,7 +60,7 @@ const Contacto = () => {
                             <textarea id="mensaje" name="mensaje" rows="3" value={formValues.mensaje} onChange={handleInputChange} required  className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " ></textarea>
                         </div>
                         <div className="flex justify-center">
-                            <button type="submit" disabled={isButtonDisabled} className="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center -mx-0.5 hover:bg-forHover hover:text-white hover:border-forHover">Enviar</button>
+                            <button type="submit" disabled={isButtonDisabled} className="w-36 h-12 border border-primary rounded-3xl flex justify-center items-center bg-primary text-white hover:bg-forHover hover:border-forHover">Enviar</button>
                         </div>
                         
                     </form>          
@@ -71,7 +71,7 @@ const Contacto = () => {
                             <p className="hidden font-bold lg:flex my-6 max-w-[390px] text-2xl text-center mx-auto my-4" >¿Tenés preguntas o comentarios sobre nuestra organización o nuestras iniciativas solidarias?</p>
                             <p className="hidden lg:flex my-6 max-w-[390px] text-2xl mx-auto my-4 text-center " >Por favor, contáctanos a través del siguiente formulario y te responderemos a la brevedad posible.</p>
                             <ul className="text-center mt-32 mb-12 items-center  lg:my-4 lg:items-start lg:m-auto ">
-                                <li className="flex items-center lg:text-2xl text-lg"><a href="https://www.instagram.com/4yudar/" target="_blank" rel="noopener noreferrer" class=""><BsInstagram className=" text-3xl "/></a>@4ayudanos</li>
+                                <li className="flex items-center lg:text-2xl text-lg"><a href="https://www.instagram.com/4yudar/" target="_blank" rel="noopener noreferrer" class=""><BsInstagram className=" text-3xl "/></a>4yudar</li>
                                 <li className="flex items-center lg:text-2xl text-lg mx-1"><BsEnvelopeAt className="m-3 text-3xl"/>ayudanos4ayudar@gmail.com</li>
                                 <li className="flex items-center lg:text-2xl text-lg"><a href=" https://wa.me/5491122788536" target="_blank" rel="noopener noreferrer" class=""><BsWhatsapp className=" text-3xl"/></a>+54 9 11 2278-8536</li>
                             </ul>
