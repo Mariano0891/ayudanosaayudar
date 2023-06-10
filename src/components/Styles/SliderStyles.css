@@ -35,5 +35,5 @@ div.swiper-button-next, div.swiper-button-prev {
     font-weight: 900;
 }
 :root {
-    --swiper-navigation-size: 11.75px !important
+    --swiper-navigation-size: 11.75px !important;
 }
